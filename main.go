@@ -8,7 +8,6 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/nicholasjackson/env"
 )
 var binAddress = env.String("BIND_ADDRESS", false, ":9090", "Bind address for the server")
 
